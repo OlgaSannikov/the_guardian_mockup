@@ -67,55 +67,50 @@ class AroundTheWorld extends React.Component{
     }
 render(){
 
-        return (<div className="mainDivs">
-<div>
-    <h2>{this.state.aroundWorldArt1Title}</h2>
-    <p>{this.state.aroundWorldArt1Txt}</p>
-    <img src={this.state.aroundWorldArt1Image} />
-</div>
-<div>
-    <h2>{this.state.aroundWorldArt2Title}</h2>
-    <img src={this.state.aroundWorldArt2Image} />
-</div>
-<div>
-    <h2>{this.state.aroundWorldArt3Title}</h2>
-    <img src={this.state.aroundWorldArt3Image} />
-</div>
-<div>
-    <h2>{this.state.aroundWorldArt4Title}</h2>
-    <img src={this.state.aroundWorldArt4Image} />
-</div>
-<div>
-    <h2>{this.state.aroundWorldArt5Title}</h2>
-
-    <img src={this.state.aroundWorldArt5Image} />
-</div>
-<div>
-    <h2>{this.state.aroundWorldArt6Title}</h2>
-  
-    <img src={this.state.aroundWorldArt6Image} />
-</div>
-<div>
-    <h2>{this.state.aroundWorldArt7Title}</h2>
-
-    <img src={this.state.aroundWorldArt7Image} />
-</div>
-<div>
-    <h2>{this.state.aroundWorldArt8Title}</h2>
-
-    <img src={this.state.aroundWorldArt8Image} />
-</div>
-<div>
-    <h2>{this.state.aroundWorldArt9Title}</h2>
-
-    <img src={this.state.aroundWorldArt9Image} />
-</div>
-<div>
-    <h2>{this.state.aroundWorldArt10Title}</h2>
-
-    <img src={this.state.aroundWorldArt10Image} />
-</div>
-        </div>)
+    return (
+            <div className="mainDivs">
+                <div>
+                    <h2>{this.state.aroundWorldArt1Title}</h2>
+                    <p>{this.state.aroundWorldArt1Txt}</p>
+                    <img src={this.state.aroundWorldArt1Image} />
+                </div>
+                <div>
+                    <h2>{this.state.aroundWorldArt2Title}</h2>
+                    <img src={this.state.aroundWorldArt2Image} />
+                </div>
+                <div>
+                    <h2>{this.state.aroundWorldArt3Title}</h2>
+                    <img src={this.state.aroundWorldArt3Image} />
+                </div>
+                <div>
+                    <h2>{this.state.aroundWorldArt4Title}</h2>
+                    <img src={this.state.aroundWorldArt4Image} />
+                </div>
+                <div>
+                    <h2>{this.state.aroundWorldArt5Title}</h2>
+                    <img src={this.state.aroundWorldArt5Image} />
+                </div>
+                <div>
+                    <h2>{this.state.aroundWorldArt6Title}</h2>
+                    <img src={this.state.aroundWorldArt6Image} />
+                </div>
+                <div>
+                    <h2>{this.state.aroundWorldArt7Title}</h2>
+                    <img src={this.state.aroundWorldArt7Image} />
+                </div>
+                <div>
+                    <h2>{this.state.aroundWorldArt8Title}</h2>
+                    <img src={this.state.aroundWorldArt8Image} />
+                </div>
+                <div>
+                    <h2>{this.state.aroundWorldArt9Title}</h2>
+                    <img src={this.state.aroundWorldArt9Image} />
+                </div>
+                <div>
+                    <h2>{this.state.aroundWorldArt10Title}</h2>
+                    <img src={this.state.aroundWorldArt10Image} />
+                </div>
+            </div>)
     }
 }
 

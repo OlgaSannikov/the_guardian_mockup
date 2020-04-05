@@ -24,8 +24,8 @@ flex-direction: row;
 .mainDivs{
     display: flex;
     flex-wrap: wrap;
-    width: 1300px;
-    height: 695px;
+    /* width: 1300px;
+    height: 695px; */
 }
 
 #cultureMainDiv{
@@ -36,6 +36,41 @@ flex-direction: row;
     flex-direction: row;
     grid-column-start: 2;
     grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#sportArtdiv4{
+display: flex;
+flex-direction: row;
+grid-column-start: 2;
+grid-column-end: 3; 
+grid-row-start: 4;
+grid-row-end: 4;
+}
+#sportArtdiv5{
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+#sportArtdiv6{
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#sportArtdiv7{
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#imgSport4, #imgSport5, #imgSport6, #imgSport7{
+    width: 100px;
+    height: 97px;
+
 }
 #imgSport1{
     width: 300px;

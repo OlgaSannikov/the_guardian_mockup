@@ -40,7 +40,7 @@ class Sports extends React.Component{
             this.setState({sportArt3Title: sport.data.articles[11].title});
             this.setState({sportArt4Title: sport.data.articles[4].title});
             this.setState({sportArt5Title: sport.data.articles[5].title});
-            this.setState({sportArt6Title: sport.data.articles[6].title});
+            this.setState({sportArt6Title: sport.data.articles[15].title});
             this.setState({sportArt7Title: sport.data.articles[9].title});
             this.setState({sportArt8Title: sport.data.articles[10].title});
             this.setState({sportArt1Image: sport.data.articles[14].urlToImage});
@@ -48,7 +48,7 @@ class Sports extends React.Component{
             this.setState({sportArt3Image: sport.data.articles[11].urlToImage});
             this.setState({sportArt4Image: sport.data.articles[4].urlToImage});
             this.setState({sportArt5Image: sport.data.articles[5].urlToImage});
-            this.setState({sportArt6Image: sport.data.articles[6].urlToImage});
+            this.setState({sportArt6Image: sport.data.articles[15].urlToImage});
             this.setState({sportArt7Image: sport.data.articles[9].urlToImage});
             this.setState({sportArt8Image: sport.data.articles[10].urlToImage});
 
@@ -67,50 +67,52 @@ render(){
     <p>Sports</p>
 </div>
 <div id="sportArtdiv1">
-<div><h2>{this.state.sportArt1Title}</h2>
+<div><p>{this.state.sportArt1Title}</p>
     <p>{this.state.sportArt1Txt}</p></div>
     
     <img id="imgSport1" src={this.state.sportArt1Image} />
 
 </div>
 {/* <div id="sportArtdiv2">
-    <h2>{this.state.sportArt2Title}</h2>
+    <p>{this.state.sportArt2Title}</p>
     <p>{this.state.sportArt2Txt}</p>
     <img src={this.state.sportArt2Image} />
 </div>
 <div id="sportArtdiv3">
-    <h2>{this.state.sportArt3Title}</h2>
+    <p>{this.state.sportArt3Title}</p>
     <p>{this.state.sportArt3Txt}</p>
     <img src={this.state.sportArt3Image} />
 
-</div>
+</div> */}
 <div id="sportArtdiv4">
-    <h2>{this.state.sportArt4Title}</h2>
-    <img src={this.state.sportArt4Image} />
+    <img id="imgSport4" src={this.state.sportArt4Image} />
+    <p>{this.state.sportArt4Title}</p>
+    
 
 </div>
 <div id="sportArtdiv5">
-    <h2>{this.state.sportArt5Title}</h2>
-
-    <img src={this.state.sportArt5Image} />
+    <img  id="imgSport5" src={this.state.sportArt5Image} />
+    <p>{this.state.sportArt5Title}</p>
+    
 </div>
 <div id="sportArtdiv6">
-    <h2>{this.state.sportArt6Title}</h2>
-    <img src={this.state.sportArt6Image} />
+     <img id="imgSport6" src={this.state.sportArt6Image} />
+     <p>{this.state.sportArt6Title}</p>
+   
 
 </div>
 <div id="sportArtdiv7">
-    <h2>{this.state.sportArt7Title}</h2>
-    <img src={this.state.sportArt7Image} />
+    <img id="imgSport7" src={this.state.sportArt7Image} />
+    <p>{this.state.sportArt7Title}</p>
+    
     </div>
-<div id="sportArtdiv8">
-    <h2>{this.state.sportArt8Title}</h2>
+{/* <div id="sportArtdiv8">
+    <p>{this.state.sportArt8Title}</p>
     <img src={this.state.sportArt8Image} />
 </div>
 <div id="hideButton">
-<button type="button">Hide</button>
-
-</div> */}
+<button type="button">Hide</button> 
+ </div>*/}
         </div>)
     }
 }

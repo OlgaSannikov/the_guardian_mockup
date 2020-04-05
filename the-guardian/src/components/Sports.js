@@ -7,7 +7,7 @@ class Sports extends React.Component{
     constructor (props){
         super(props);
         this.state={
-            sportArt1Txt: null
+            sportArt1Txt: null,
             sportArt2Txt: null,
             sportArt3Txt: null,
             sportArt4Txt: null,
@@ -30,7 +30,7 @@ class Sports extends React.Component{
             sportArt5Image: null,
             sportArt6Image: null,
             sportArt7Image: null,
-            sportArt8Image: null,
+            sportArt8Image: null
         }
     }
     async getInfo(){
@@ -53,7 +53,15 @@ class Sports extends React.Component{
             this.setState({sportArt6Title: sport.data.articles[5].title});
             this.setState({sportArt7Title: sport.data.articles[6].title});
             this.setState({sportArt8Title: sport.data.articles[7].title});
-            
+            this.setState({sportArt1Image: sport.data.articles[0].urlToImage});
+            this.setState({sportArt2Image: sport.data.articles[1].urlToImage});
+            this.setState({sportArt3Image: sport.data.articles[2].urlToImage});
+            this.setState({sportArt4Image: sport.data.articles[3].urlToImage});
+            this.setState({sportArt5Image: sport.data.articles[4].urlToImage});
+            this.setState({sportArt6Image: sport.data.articles[5].urlToImage});
+            this.setState({sportArt7Image: sport.data.articles[6].urlToImage});
+            this.setState({sportArt8Image: sport.data.articles[7].urlToImage});
+            console.log(this.state.sportArt1Title,this.state.sportArt1Image,this.state.sportArt1Txt);
           }
           catch(e){
             console.log(e);

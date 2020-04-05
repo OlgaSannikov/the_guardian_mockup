@@ -1,6 +1,5 @@
 import React from "react";
 import "../components/components.css";
-import APIKey from "./APIKey";
 import axios from 'axios';
 
 
@@ -27,18 +26,20 @@ class Sports extends React.Component{
         }
     }
     async getInfo(){
-        try{
-            const sport= await axios.get(`http://newsapi.org/v2/top-headlines?country=us&category=sports&${APIKey()}`);
-            this.setState({sportArt1Txt: sport.data.articles[0].title});
-            console.log(this.state.sportArt1Txt);
-          }
-          catch(e){
-            console.log(e);
-    }
+        // const key=process.env.REACT_APP_API_KEY;
+        
+        // try{
+        //     const sport= await axios.get(`http://newsapi.org/v2/top-headlines?country=us&category=sports&${key}`);
+        //     this.setState({sportArt1Txt: sport.data.articles[0].title});
+        //     console.log(this.state.sportArt1Txt);
+        //   }
+        //   catch(e){
+        //     console.log(e);
+    // }
 }
-    componentDidMount() {
-        this.getInfo();
-    }
+    // componentDidMount() {
+    //     this.getInfo();
+    // }
 render(){
 
         return (<div>

@@ -4,17 +4,17 @@
     flex-direction: row;
 }
 #leftTopDiv{
-  width:359px;
-   height:110px;
-   border: solid 2px green;
+    width:359px;
+    height:110px;
+    border: solid 2px green;
 }
 #rightTopDiv{
     display: flex;
     flex-direction: row;
 }
 #headerMiddleDiv{
-display:flex;
-flex-direction: row;
+    display:flex;
+    flex-direction: row;
 }
 #headerBottomDiv{
     display:flex;
@@ -44,12 +44,12 @@ flex-direction: row;
     grid-row-end: 3;
 }
 #sportArtdiv4{
-display: flex;
-flex-direction: row;
-grid-column-start: 2;
-grid-column-end: 4; 
-grid-row-start: 4;
-grid-row-end: 5;
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 2;
+    grid-column-end: 4; 
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 #sportArtdiv5{
     display: flex;
@@ -101,8 +101,8 @@ display: flex;
 }
 
 #imgSport2, #imgSport3{
- width: 240px;
- height: 150px;
+    width: 240px;
+    height: 150px;
 }
 
 #imgSport8{
@@ -187,8 +187,8 @@ display: flex;
     grid-row-end: 4;
 }
 #imgCulture1, #imgCulture2{
-width:240px;
-height: 91;
+    width:240px;
+    height: 91px;
 }
 #imgCulture3, #imgCulture4, #imgCulture5{
     width: 240px;

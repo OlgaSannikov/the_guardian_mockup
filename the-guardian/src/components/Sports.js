@@ -62,60 +62,49 @@ class Sports extends React.Component{
     }
 render(){
 
-        return (<div id="mainDivSport" className="mainDivs">
-<div id="leftPartSport">
-    <p>Sports</p>
-</div>
-<div id="sportArtdiv1">
-<div><p>{this.state.sportArt1Title}</p>
-    <p>{this.state.sportArt1Txt}</p></div>
-    
-    <img id="imgSport1" src={this.state.sportArt1Image} />
-
-</div>
-<div id="sportArtdiv2">
-    <img id="imgSport2" src={this.state.sportArt2Image} />
-    <p>{this.state.sportArt2Title}</p>
-    <p>{this.state.sportArt2Txt}</p>
-   
-</div>
-<div id="sportArtdiv3">
-    <img id="imgSport3" src={this.state.sportArt3Image} />
-    <p>{this.state.sportArt3Title}</p>
-    <p>{this.state.sportArt3Txt}</p>
-   
-
-</div>
-<div id="sportArtdiv4">
-    <img id="imgSport4" src={this.state.sportArt4Image} />
-    <p>{this.state.sportArt4Title}</p>
-    
-
-</div>
-<div id="sportArtdiv5">
-    <img  id="imgSport5" src={this.state.sportArt5Image} />
-    <p>{this.state.sportArt5Title}</p>
-    
-</div>
-<div id="sportArtdiv6">
-     <img id="imgSport6" src={this.state.sportArt6Image} />
-     <p>{this.state.sportArt6Title}</p>
-   
-
-</div>
-<div id="sportArtdiv7">
-    <img id="imgSport7" src={this.state.sportArt7Image} />
-    <p>{this.state.sportArt7Title}</p>
-    
-    </div>
-<div id="sportArtdiv8">
-    <img id="imgSport8" src={this.state.sportArt8Image} />
-    <p>{this.state.sportArt8Title}</p>  
-</div>
-<div className="hideButton">
-<button type="button">Hide</button> 
- </div>
-        </div>)
+    return (<div id="mainDivSport" className="mainDivs">
+                <div id="leftPartSport">
+                    <p>Sports</p>
+                </div>
+                <div id="sportArtdiv1">
+                <div><p>{this.state.sportArt1Title}</p>
+                    <p>{this.state.sportArt1Txt}</p></div>
+                    <img id="imgSport1" src={this.state.sportArt1Image} />
+                </div>
+                <div id="sportArtdiv2">
+                    <img id="imgSport2" src={this.state.sportArt2Image} />
+                    <p>{this.state.sportArt2Title}</p>
+                    <p>{this.state.sportArt2Txt}</p>
+                </div>
+                <div id="sportArtdiv3">
+                    <img id="imgSport3" src={this.state.sportArt3Image} />
+                    <p>{this.state.sportArt3Title}</p>
+                    <p>{this.state.sportArt3Txt}</p>
+                </div>
+                <div id="sportArtdiv4">
+                    <img id="imgSport4" src={this.state.sportArt4Image} />
+                    <p>{this.state.sportArt4Title}</p>
+                </div>
+                <div id="sportArtdiv5">
+                    <img  id="imgSport5" src={this.state.sportArt5Image} />
+                    <p>{this.state.sportArt5Title}</p>
+                </div>
+                <div id="sportArtdiv6">
+                    <img id="imgSport6" src={this.state.sportArt6Image} />
+                    <p>{this.state.sportArt6Title}</p>
+                </div>
+                <div id="sportArtdiv7">
+                    <img id="imgSport7" src={this.state.sportArt7Image} />
+                    <p>{this.state.sportArt7Title}</p>
+                </div>
+                <div id="sportArtdiv8">
+                    <img id="imgSport8" src={this.state.sportArt8Image} />
+                    <p>{this.state.sportArt8Title}</p>  
+                </div>
+                <div className="hideButton">
+                    <button type="button">Hide</button> 
+                </div>
+            </div>)
     }
 }
 

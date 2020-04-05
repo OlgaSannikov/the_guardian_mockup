@@ -79,9 +79,31 @@ display: flex;
     grid-row-start: 1;
     grid-row-end: 3;
 }
+#sportArtdiv2{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 8;
+}
+#sportArtdiv3{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 8;
+}
+
+#imgSport2, #imgSport3{
+ width: 240px;
+ height: 150px;
+}
+
 #imgSport8{
     width: 240px;
-    height: 140px;
+    height: 150px;
 }
 #imgSport4, #imgSport5, #imgSport6, #imgSport7{
     width: 100px;

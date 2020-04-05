@@ -73,17 +73,19 @@ render(){
     <img id="imgSport1" src={this.state.sportArt1Image} />
 
 </div>
-{/* <div id="sportArtdiv2">
+<div id="sportArtdiv2">
+    <img id="imgSport2" src={this.state.sportArt2Image} />
     <p>{this.state.sportArt2Title}</p>
     <p>{this.state.sportArt2Txt}</p>
-    <img src={this.state.sportArt2Image} />
+   
 </div>
 <div id="sportArtdiv3">
+    <img id="imgSport3" src={this.state.sportArt3Image} />
     <p>{this.state.sportArt3Title}</p>
     <p>{this.state.sportArt3Txt}</p>
-    <img src={this.state.sportArt3Image} />
+   
 
-</div> */}
+</div>
 <div id="sportArtdiv4">
     <img id="imgSport4" src={this.state.sportArt4Image} />
     <p>{this.state.sportArt4Title}</p>

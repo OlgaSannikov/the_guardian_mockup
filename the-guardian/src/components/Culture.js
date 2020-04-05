@@ -46,27 +46,35 @@ class Culture extends React.Component{
 render(){
 
         return (<div id="cultureMainDiv" className="mainDivs">
+        <div id="leftPartCulture">
+    <p>Culture</p>
+</div>
 <div id="cultureArtdiv1">
-    <h2>{this.state.cultureArt1Title}</h2>
-    <img src={this.state.cultureArt1Image} />
+    <img id="imgCulture1" src={this.state.cultureArt1Image} />
+    <p>{this.state.cultureArt1Title}</p>
+    
 
 </div>
-<div id="cultureArtdiv1">
-    <h2>{this.state.cultureArt2Title}</h2>
-    <img src={this.state.cultureArt2Image} />
+<div id="cultureArtdiv2">
+    <img id="imgCulture2" src={this.state.cultureArt2Image} />
+    <p>{this.state.cultureArt2Title}</p>
+    
 
 </div>
-<div id="cultureArtdiv1">
-    <h2>{this.state.cultureArt3Title}</h2>
-    <img src={this.state.cultureArt3Image} />
+<div id="cultureArtdiv3">
+   <img id="imgCulture3" src={this.state.cultureArt3Image} />
+    <p>{this.state.cultureArt3Title}</p>
+    
 </div>
-<div id="cultureArtdiv1">
-    <h2>{this.state.cultureArt4Title}</h2>
-    <img src={this.state.cultureArt4Image} />
+<div id="cultureArtdiv4">
+    <img id="imgCulture4" src={this.state.cultureArt4Image} />
+    <p>{this.state.cultureArt4Title}</p>
+    
 </div>
-<div id="cultureArtdiv1">
-    <h2>{this.state.cultureArt5Title}</h2>
-    <img src={this.state.cultureArt5Image} />
+<div id="cultureArtdiv5">
+    <img id="imgCulture2" src={this.state.cultureArt5Image} />
+    <p>{this.state.cultureArt5Title}</p>
+    
 </div>
 <div className="hideButton">
 <button type="button">Hide</button> 

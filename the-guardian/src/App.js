@@ -12,7 +12,7 @@ render(){
     
      {/* <Header /> */}
      <Sports />
-     {/* <Culture /> */}
+     <Culture />
      {/* <AroundTheWorld /> */}
     </div>
   );

@@ -62,17 +62,18 @@ class Sports extends React.Component{
     }
 render(){
 
-        return (<div id="mainDIvSport" className="mainDivs">
+        return (<div id="mainDivSport" className="mainDivs">
 <div id="leftPartSport">
     <p>Sports</p>
 </div>
 <div id="sportArtdiv1">
-    <h2>{this.state.sportArt1Title}</h2>
-    <p>{this.state.sportArt1Txt}</p>
-    <img src={this.state.sportArt1Image} />
+<div><h2>{this.state.sportArt1Title}</h2>
+    <p>{this.state.sportArt1Txt}</p></div>
+    
+    <img id="imgSport1" src={this.state.sportArt1Image} />
 
 </div>
-<div id="sportArtdiv2">
+{/* <div id="sportArtdiv2">
     <h2>{this.state.sportArt2Title}</h2>
     <p>{this.state.sportArt2Txt}</p>
     <img src={this.state.sportArt2Image} />
@@ -109,7 +110,7 @@ render(){
 <div id="hideButton">
 <button type="button">Hide</button>
 
-</div>
+</div> */}
         </div>)
     }
 }

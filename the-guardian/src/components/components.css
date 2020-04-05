@@ -24,8 +24,8 @@ flex-direction: row;
 .mainDivs{
     display: flex;
     flex-wrap: wrap;
-    /* width: 1300px;
-    height: 695px; */
+    width: 1300px;
+    height: 695px;
 }
 
 #cultureMainDiv{
@@ -35,7 +35,7 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
 }
@@ -43,29 +43,45 @@ flex-direction: row;
 display: flex;
 flex-direction: row;
 grid-column-start: 2;
-grid-column-end: 3; 
+grid-column-end: 4; 
 grid-row-start: 4;
-grid-row-end: 4;
+grid-row-end: 5;
 }
 #sportArtdiv5{
     display: flex;
     flex-direction: row;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 5;
-    grid-row-end: 5;
+    grid-row-end: 6;
 }
 #sportArtdiv6{
     display: flex;
     flex-direction: row;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
 }
 #sportArtdiv7{
-    display: flex;
+display: flex;
     flex-direction: row;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+#sportArtdiv8{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#imgSport8{
+    width: 240px;
+    height: 140px;
 }
 #imgSport4, #imgSport5, #imgSport6, #imgSport7{
     width: 100px;

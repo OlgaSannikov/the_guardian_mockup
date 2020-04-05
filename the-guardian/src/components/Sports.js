@@ -106,13 +106,13 @@ render(){
     <p>{this.state.sportArt7Title}</p>
     
     </div>
-{/* <div id="sportArtdiv8">
-    <p>{this.state.sportArt8Title}</p>
-    <img src={this.state.sportArt8Image} />
+<div id="sportArtdiv8">
+    <img id="imgSport8" src={this.state.sportArt8Image} />
+    <p>{this.state.sportArt8Title}</p>  
 </div>
 <div id="hideButton">
 <button type="button">Hide</button> 
- </div>*/}
+ </div>
         </div>)
     }
 }

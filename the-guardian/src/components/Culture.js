@@ -45,31 +45,28 @@ class Culture extends React.Component{
     }
 render(){
 
-        return (<div className="mainDivs">
+        return (<div id="cultureMainDiv" className="mainDivs">
 <div>
     <h2>{this.state.cultureArt1Title}</h2>
     <img src={this.state.cultureArt1Image} />
-    <h1>**************************************************************</h1>
+
 </div>
 <div>
     <h2>{this.state.cultureArt2Title}</h2>
     <img src={this.state.cultureArt2Image} />
-    <h1>**************************************************************</h1>
+
 </div>
 <div>
     <h2>{this.state.cultureArt3Title}</h2>
     <img src={this.state.cultureArt3Image} />
-    <h1>**************************************************************</h1>
 </div>
 <div>
     <h2>{this.state.cultureArt4Title}</h2>
     <img src={this.state.cultureArt4Image} />
-    <h1>**************************************************************</h1>
 </div>
 <div>
     <h2>{this.state.cultureArt5Title}</h2>
     <img src={this.state.cultureArt5Image} />
-    <h1>**************************************************************</h1>
 </div>
 
         </div>)

@@ -27,3 +27,13 @@ flex-direction: row;
     width: 1300px;
     height: 600px;
 }
+
+#cultureMainDiv{
+    border:solid 3px green;
+}
+
+#mainDIvSport{
+    display: grid;
+    
+    border:solid 3px green;
+}

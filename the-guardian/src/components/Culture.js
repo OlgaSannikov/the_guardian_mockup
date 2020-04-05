@@ -16,12 +16,7 @@ class Culture extends React.Component{
             cultureArt2Image: null,
             cultureArt3Image: null,
             cultureArt4Image: null,
-            cultureArt5Image: null,
-            cultureArt1Link: null,
-            cultureArt2Link: null,
-            cultureArt3Link: null,
-            cultureArt4Link: null,
-            cultureArt5Link: null
+            cultureArt5Image: null
 
         }
     }
@@ -39,12 +34,6 @@ class Culture extends React.Component{
             this.setState({cultureArt3Image: culture.data.articles[2].urlToImage});
             this.setState({cultureArt4Image: culture.data.articles[8].urlToImage});
             this.setState({cultureArt5Image: culture.data.articles[15].urlToImage});
-            this.setState({cultureArt1Link: culture.data.articles[15].urlToImage});
-            this.setState({cultureArt2Link: culture.data.articles[15].urlToImage});
-            this.setState({cultureArt3Link: culture.data.articles[15].urlToImage});
-            this.setState({cultureArt4Link: culture.data.articles[15].urlToImage});
-            this.setState({cultureArt5Link: culture.data.articles[15].urlToImage});
-
 
           }
           catch(e){

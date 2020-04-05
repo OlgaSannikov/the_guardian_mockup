@@ -16,24 +16,34 @@ class Culture extends React.Component{
             cultureArt2Image: null,
             cultureArt3Image: null,
             cultureArt4Image: null,
-            cultureArt5Image: null
+            cultureArt5Image: null,
+            cultureArt1Link: null,
+            cultureArt2Link: null,
+            cultureArt3Link: null,
+            cultureArt4Link: null,
+            cultureArt5Link: null
 
         }
     }
     async getInfo(){
         const key=process.env.REACT_APP_API_KEY_NEWS;
         try{
-            const culture= await axios.get(`http://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=${key}`);
-            this.setState({cultureArt1Title: culture.data.articles[1].title});
-            this.setState({cultureArt2Title: culture.data.articles[2].title});
-            this.setState({cultureArt3Title: culture.data.articles[3].title});
-            this.setState({cultureArt4Title: culture.data.articles[4].title});
-            this.setState({cultureArt5Title: culture.data.articles[5].title});
-            this.setState({cultureArt1Image: culture.data.articles[1].urlToImage});
-            this.setState({cultureArt2Image: culture.data.articles[2].urlToImage});
-            this.setState({cultureArt3Image: culture.data.articles[3].urlToImage});
-            this.setState({cultureArt4Image: culture.data.articles[4].urlToImage});
-            this.setState({cultureArt5Image: culture.data.articles[5].urlToImage});
+            const culture= await axios.get(`http://newsapi.org/v2/everything?q=culture&pageSize=70&sortBy=popularity&apiKey=${key}`);
+            this.setState({cultureArt1Title: culture.data.articles[0].title});
+            this.setState({cultureArt2Title: culture.data.articles[51].title});
+            this.setState({cultureArt3Title: culture.data.articles[2].title});
+            this.setState({cultureArt4Title: culture.data.articles[8].title});
+            this.setState({cultureArt5Title: culture.data.articles[15].title});
+            this.setState({cultureArt1Image: culture.data.articles[0].urlToImage});
+            this.setState({cultureArt2Image: culture.data.articles[51].urlToImage});
+            this.setState({cultureArt3Image: culture.data.articles[2].urlToImage});
+            this.setState({cultureArt4Image: culture.data.articles[8].urlToImage});
+            this.setState({cultureArt5Image: culture.data.articles[15].urlToImage});
+            this.setState({cultureArt1Link: culture.data.articles[15].urlToImage});
+            this.setState({cultureArt2Link: culture.data.articles[15].urlToImage});
+            this.setState({cultureArt3Link: culture.data.articles[15].urlToImage});
+            this.setState({cultureArt4Link: culture.data.articles[15].urlToImage});
+            this.setState({cultureArt5Link: culture.data.articles[15].urlToImage});
 
 
           }

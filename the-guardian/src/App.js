@@ -10,8 +10,8 @@ render(){
     <div className="App">
     
      <Header />
-     <Sports />
-     {/* <Culture /> */}
+     {/* <Sports /> */}
+     <Culture />
     </div>
   );
 }

@@ -45,7 +45,7 @@ class Culture extends React.Component{
     }
 render(){
 
-        return (<div>
+        return (<div className="mainDivs">
 <div>
     <h2>{this.state.cultureArt1Title}</h2>
     <img src={this.state.cultureArt1Image} />

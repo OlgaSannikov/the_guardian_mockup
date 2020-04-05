@@ -67,7 +67,7 @@ class AroundTheWorld extends React.Component{
     }
 render(){
 
-        return (<div>
+        return (<div className="mainDivs">
 <div>
     <h2>{this.state.aroundWorldArt1Title}</h2>
     <p>{this.state.aroundWorldArt1Txt}</p>

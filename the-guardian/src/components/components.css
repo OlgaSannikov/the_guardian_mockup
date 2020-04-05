@@ -20,3 +20,10 @@ flex-direction: row;
     display:flex;
     flex-direction: row;
 }
+
+.mainDivs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 600px;
+}

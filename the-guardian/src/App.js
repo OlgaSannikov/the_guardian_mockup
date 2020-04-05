@@ -10,9 +10,9 @@ render(){
   return (
     <div className="App">
     
-     {/* <Header /> */}
-     {/* <Sports /> */}
-     {/* <Culture /> */}
+     <Header />
+     <Sports />
+     <Culture />
      <AroundTheWorld />
     </div>
   );

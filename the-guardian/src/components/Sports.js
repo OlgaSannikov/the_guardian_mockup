@@ -62,7 +62,7 @@ class Sports extends React.Component{
     }
 render(){
 
-        return (<div>
+        return (<div className="mainDivs">
 <div>
     <h2>{this.state.sportArt1Title}</h2>
     <p>{this.state.sportArt1Txt}</p>

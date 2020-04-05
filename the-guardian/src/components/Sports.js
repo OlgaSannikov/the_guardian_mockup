@@ -37,22 +37,22 @@ class Sports extends React.Component{
         const key=process.env.REACT_APP_API_KEY_NEWS;
         try{
             const sport= await axios.get(`http://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=${key}`);
-            this.setState({sportArt1Txt: sport.data.articles[0].title});
-            this.setState({sportArt1Txt: sport.data.articles[1].title});
-            this.setState({sportArt1Txt: sport.data.articles[2].title});
-            this.setState({sportArt1Txt: sport.data.articles[3].title});
-            this.setState({sportArt1Txt: sport.data.articles[4].title});
-            this.setState({sportArt1Txt: sport.data.articles[5].title});
-            this.setState({sportArt1Txt: sport.data.articles[6].title});
-            this.setState({sportArt1Txt: sport.data.articles[7].title});
-            this.setState({sportArt1Txt: sport.data.articles[0].title});
-            this.setState({sportArt1Txt: sport.data.articles[1].title});
-            this.setState({sportArt1Txt: sport.data.articles[2].title});
-            this.setState({sportArt1Txt: sport.data.articles[3].title});
-            this.setState({sportArt1Txt: sport.data.articles[4].title});
-            this.setState({sportArt1Txt: sport.data.articles[5].title});
-            this.setState({sportArt1Txt: sport.data.articles[6].title});
-            this.setState({sportArt1Txt: sport.data.articles[7].title});
+            this.setState({sportArt1Txt: sport.data.articles[0].description});
+            this.setState({sportArt1Txt: sport.data.articles[1].description});
+            this.setState({sportArt1Txt: sport.data.articles[2].description});
+            this.setState({sportArt1Txt: sport.data.articles[3].description});
+            this.setState({sportArt1Txt: sport.data.articles[4].description});
+            this.setState({sportArt1Txt: sport.data.articles[5].description});
+            this.setState({sportArt1Txt: sport.data.articles[6].description});
+            this.setState({sportArt1Txt: sport.data.articles[7].description});
+            this.setState({sportArt1Title: sport.data.articles[0].title});
+            this.setState({sportArt2Title: sport.data.articles[1].title});
+            this.setState({sportArt3Title: sport.data.articles[2].title});
+            this.setState({sportArt4Title: sport.data.articles[3].title});
+            this.setState({sportArt5Title: sport.data.articles[4].title});
+            this.setState({sportArt6Title: sport.data.articles[5].title});
+            this.setState({sportArt7Title: sport.data.articles[6].title});
+            this.setState({sportArt8Title: sport.data.articles[7].title});
             
           }
           catch(e){

@@ -29,7 +29,7 @@ flex-direction: row;
 }
 
 #cultureMainDiv{
-    border:solid 3px green;
+    border:solid 3px grey;
 }
 #sportArtdiv1{
     display: flex;
@@ -119,5 +119,12 @@ display: flex;
     display: grid;
     grid-template-columns:240px 240px 240px 240px 240px 120px;
     grid-template-rows: repeat(7,97px);
+    border:solid 3px green;
+}
+/* Culture */
+#cultureMainDiv{
+    display: grid;
+    grid-template-columns:240px 240px 240px 240px 240px 120px;
+    grid-template-rows: repeat(3,91px);
     border:solid 3px green;
 }

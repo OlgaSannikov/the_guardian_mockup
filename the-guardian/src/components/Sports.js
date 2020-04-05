@@ -112,7 +112,7 @@ render(){
     <img id="imgSport8" src={this.state.sportArt8Image} />
     <p>{this.state.sportArt8Title}</p>  
 </div>
-<div id="hideButton">
+<div className="hideButton">
 <button type="button">Hide</button> 
  </div>
         </div>)

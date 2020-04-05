@@ -1,6 +1,22 @@
 /* Header */
+#topOfdiv{
+    display: flex;
+    flex-direction: row;
+}
 #leftTopDiv{
   width:359px;
    height:110px;
    border: solid 2px green;
+}
+#rightTopDiv{
+    display: flex;
+    flex-direction: row;
+}
+#headerMiddleDiv{
+display:flex;
+flex-direction: row;
+}
+#headerBottomDiv{
+    display:flex;
+    flex-direction: row;
 }

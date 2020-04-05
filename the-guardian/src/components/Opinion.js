@@ -7,25 +7,21 @@ class Sports extends React.Component{
     constructor (props){
         super(props);
         this.state={
-            sportArt1Txt: null,
-            sportArt2Txt: null,
-            sportArt3Txt: null,
-            sportArt1Title: null,
-            sportArt2Title: null,
-            sportArt3Title: null,
-            sportArt4Title: null,
-            sportArt5Title: null,
-            sportArt6Title: null,
-            sportArt7Title: null,
-            sportArt8Title: null,
-            sportArt1Image: null,
-            sportArt2Image: null,
-            sportArt3Image: null,
-            sportArt4Image: null,
-            sportArt5Image: null,
-            sportArt6Image: null,
-            sportArt7Image: null,
-            sportArt8Image: null
+            opinionArt1Txt: null,
+            opinionArt2Txt: null,
+            opinionArt1Title: null,
+            opinionArt2Title: null,
+            opinionArt3Title: null,
+            opinionArt4Title: null,
+            opinionArt5Title: null,
+            opinionArt6Title: null,
+            opinionArt1Image: null,
+            opinionArt2Image: null,
+            opinionArt3Image: null,
+            opinionArt4Image: null,
+            opinionArt5Image: null,
+            opinionArt6Image: null,
+
         }
     }
     async getInfo(){

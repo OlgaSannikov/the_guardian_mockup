@@ -25,7 +25,7 @@ flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     width: 1300px;
-    height: 600px;
+    height: 695px;
 }
 
 #cultureMainDiv{
@@ -34,6 +34,8 @@ flex-direction: row;
 
 #mainDIvSport{
     display: grid;
-    
+    grid-template-columns:240px 240px 240px 240px 240px 120px;
+    grid-template-rows: repeat(7,97px);
+    grid-template-areas:""
     border:solid 3px green;
 }

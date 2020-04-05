@@ -63,45 +63,52 @@ class Sports extends React.Component{
 render(){
 
         return (<div id="mainDIvSport" className="mainDivs">
-<div id="sportdiv1">
+<div id="leftPartSport">
+    <p>Sports</p>
+</div>
+<div id="sportArtdiv1">
     <h2>{this.state.sportArt1Title}</h2>
     <p>{this.state.sportArt1Txt}</p>
     <img src={this.state.sportArt1Image} />
 
 </div>
-<div id="sportdiv2">
+<div id="sportArtdiv2">
     <h2>{this.state.sportArt2Title}</h2>
     <p>{this.state.sportArt2Txt}</p>
     <img src={this.state.sportArt2Image} />
 </div>
-<div id="sportdiv3">
+<div id="sportArtdiv3">
     <h2>{this.state.sportArt3Title}</h2>
     <p>{this.state.sportArt3Txt}</p>
     <img src={this.state.sportArt3Image} />
 
 </div>
-<div id="sportdiv4">
+<div id="sportArtdiv4">
     <h2>{this.state.sportArt4Title}</h2>
     <img src={this.state.sportArt4Image} />
 
 </div>
-<div id="sportdiv5">
+<div id="sportArtdiv5">
     <h2>{this.state.sportArt5Title}</h2>
 
     <img src={this.state.sportArt5Image} />
 </div>
-<div id="sportdiv6">
+<div id="sportArtdiv6">
     <h2>{this.state.sportArt6Title}</h2>
     <img src={this.state.sportArt6Image} />
 
 </div>
-<div id="sportdiv7">
+<div id="sportArtdiv7">
     <h2>{this.state.sportArt7Title}</h2>
     <img src={this.state.sportArt7Image} />
     </div>
-<div id="sportdiv8">
+<div id="sportArtdiv8">
     <h2>{this.state.sportArt8Title}</h2>
     <img src={this.state.sportArt8Image} />
+</div>
+<div id="hideButton">
+<button type="button">Hide</button>
+
 </div>
         </div>)
     }

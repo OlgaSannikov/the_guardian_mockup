@@ -8,7 +8,7 @@
 
 
 ## Resources
-https://www.npmjs.com/package/react-gitignore
-https://medium.com/better-programming/how-to-hide-your-api-keys-c2b952bc07e6
+    1.https://www.npmjs.com/package/react-gitignore
+    2.https://medium.com/better-programming/how-to-hide-your-api-keys-c2b952bc07e6
 
 ### Powered by NewsAPI: newsapi.org

@@ -31,11 +31,11 @@ class Sports extends React.Component{
     async getInfo(){
         const key=process.env.REACT_APP_API_KEY_NEWS;
         try{
-            const sport= await axios.get(`http://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=${key}`);
-            this.setState({sportArt1Txt: sport.data.articles[14].description});
+            const sport= await axios.get(`http://newsapi.org/v2/top-headlines?pageSize=100&country=us&category=sports&apiKey=${key}`);
+            this.setState({sportArt1Txt: sport.data.articles[35].description});
             this.setState({sportArt2Txt: sport.data.articles[2].description});
             this.setState({sportArt3Txt: sport.data.articles[3].description});
-            this.setState({sportArt1Title: sport.data.articles[14].title});
+            this.setState({sportArt1Title: sport.data.articles[35].title});
             this.setState({sportArt2Title: sport.data.articles[2].title});
             this.setState({sportArt3Title: sport.data.articles[11].title});
             this.setState({sportArt4Title: sport.data.articles[4].title});
@@ -43,7 +43,7 @@ class Sports extends React.Component{
             this.setState({sportArt6Title: sport.data.articles[15].title});
             this.setState({sportArt7Title: sport.data.articles[9].title});
             this.setState({sportArt8Title: sport.data.articles[10].title});
-            this.setState({sportArt1Image: sport.data.articles[14].urlToImage});
+            this.setState({sportArt1Image: sport.data.articles[35].urlToImage});
             this.setState({sportArt2Image: sport.data.articles[2].urlToImage});
             this.setState({sportArt3Image: sport.data.articles[11].urlToImage});
             this.setState({sportArt4Image: sport.data.articles[4].urlToImage});

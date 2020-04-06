@@ -168,7 +168,7 @@ display: flex;
     grid-column-start: 4;
     grid-column-end: 6;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 1;
 }
 #cultureArtdiv4{
     display: flex;
@@ -176,7 +176,7 @@ display: flex;
     grid-column-start: 4;
     grid-column-end: 6;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 2;
 }
 #cultureArtdiv5{
     display: flex;
@@ -184,13 +184,13 @@ display: flex;
     grid-column-start: 4;
     grid-column-end: 6;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 3;
 }
 #imgCulture1, #imgCulture2{
     width:240px;
     height: 180px;
 }
-#imgCulture3, #imgCulture4, #imgCulture5{
+#imgCulture3, #imgCulture4, #imgCulture5 {
     width: 240px;
     height: 91px;
 
